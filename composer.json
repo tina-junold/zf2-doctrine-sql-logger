@@ -1,5 +1,5 @@
 {
-    "name": "tburschka/ZF2DoctrineSQLLogger",
+    "name": "tburschka/zf2-doctrine-sql-logger",
     "description": "Logs Doctrine DBAL queries with a Zend Log.",
     "type": "zf-module",
     "license": "GPL v3",
