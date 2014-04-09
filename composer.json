@@ -1,0 +1,29 @@
+{
+    "name": "tburschka/ZF2DoctrineSQLLogger",
+    "description": "Logs Doctrine DBAL queries with a Zend Log.",
+    "type": "zf-module",
+    "license": "GPL v3",
+    "keywords": [
+        "zf2",
+        "doctrine",
+        "log"
+    ],
+    "homepage": "https://github.com/tburschka/ZF2DoctrineSQLLogger",
+    "authors": [
+        {
+            "name": "Torsten Burschka",
+            "email": "torsten.burschka@gmail.com",
+            "homepage": "http://www.ideaplexus.com/"
+        }
+    ],
+    "require": {
+        "php":                               ">=5.3.23",
+        "doctrine/doctrine-orm-module":      "0.*",
+        "zendframework/zend-servicemanager": "~2.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "ZF2DoctrineSQLLogger\\": "src/"
+        }
+    }
+}
