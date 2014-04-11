@@ -1,16 +1,20 @@
 ZF2DoctrineSQLLogger
 ====================
 
-Logs Doctrine DBAL queries with a Zend Log.
+Logs Doctrine DBAL queries as plain SQL with a Zend\Log\Logger.
 
 Usage
 -----
- 
-1. Add to modules list in application.config.php
+
+1. Add to require list in composer.json file (and of cause execute `composer.phar update`)
+
+        "tburschka/zf2-doctrine-sql-logger": "dev-master"
+
+2. Add to modules list in application.config.php
 
         'ZF2DoctrineSQLLogger'
 
-2. Create a new Zend\Log\Logger or use an existing one
+3. Create a new Zend\Log\Logger or use an existing one
 
         [...]
         'service_manager' => array(
@@ -25,7 +29,7 @@ Usage
         ),
         [...]
 
-3. Configure the Z2fDoctrineSQLLogger
+4. Configure the Z2fDoctrineSQLLogger
 
         [...]
         'ZF2DoctrineSQLLogger' => array(
@@ -36,7 +40,7 @@ Usage
         ),
         [...]
 
-4. Enable logger for doctrine
+5. Enable logger for doctrine
 
         [...]
         'doctrine' => array(

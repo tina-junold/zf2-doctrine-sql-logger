@@ -6,9 +6,10 @@
     "keywords": [
         "zf2",
         "doctrine",
-        "log"
+        "log",
+	"sql"
     ],
-    "homepage": "https://github.com/tburschka/ZF2DoctrineSQLLogger",
+    "homepage": "https://github.com/tburschka/zf2-doctrine-sql-logger",
     "authors": [
         {
             "name": "Torsten Burschka",
@@ -24,6 +25,9 @@
     "autoload": {
         "psr-0": {
             "ZF2DoctrineSQLLogger\\": "src/"
-        }
+        },
+        "classmap": [
+            "./Module.php"
+        ]
     }
 }
