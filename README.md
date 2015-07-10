@@ -8,7 +8,7 @@ Usage
 
 1. Add to require list in composer.json file (and of cause execute `composer.phar update`)
 
-        "tburschka/zf2-doctrine-sql-logger": "dev-master"
+        "tburschka/zf2-doctrine-sql-logger": "~1.0"
 
 2. Add to modules list in application.config.php
 
