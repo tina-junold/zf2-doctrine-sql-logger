@@ -2,7 +2,7 @@
     "name": "tburschka/zf2-doctrine-sql-logger",
     "description": "Logs Doctrine DBAL queries with a Zend Log.",
     "type": "zf-module",
-    "license": "GPL v3",
+    "license": "MIT",
     "keywords": [
         "zf2",
         "doctrine",
@@ -19,7 +19,7 @@
     ],
     "require": {
         "php":                               ">=5.3.23",
-        "doctrine/doctrine-orm-module":      "0.*",
+        "doctrine/doctrine-orm-module":      "*",
         "zendframework/zend-servicemanager": "~2.3"
     },
     "autoload": {
